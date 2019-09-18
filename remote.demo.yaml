@@ -1,0 +1,37 @@
+################################################################################
+# Playbook example that performs some simple operations on a remote system
+################################################################################
+
+---
+- hosts: default
+  user: root
+  tasks:
+  - name: "Print name of current/working directory."
+    command: pwd 
+    register: out
+    
+  - debug: var=out.stdout_lines
+  
+  - name: "Print the current/working directories files."
+    command: ls -la 
+    register: out
+    
+  - debug: var=out.stdout_lines
+  
+  - name: "Make the directory /tmp/rbac-demo"
+    file: 
+      path: "/tmp/rbac-demo/"
+      state: directory
+    
+  - debug: var=out.stdout_lines
+  
+  - name: "List directory in /tmp"
+    command: ls -la /tmp
+    register: out
+    
+  - debug: var=out.stdout_lines
+  
+  - name: "Delete directory /tmp/rbac-demo"
+    file: 
+      path: "/tmp/rbac-demo/"
+      state: absent
