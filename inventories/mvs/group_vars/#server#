@@ -1,0 +1,16 @@
+---
+_BPXK_AUTOCVT: ON
+PYTHON_DIR_NAME: python27
+INSTALL: /usr/lpp/rsusr
+RELEASE_NAME: python-2017-04-12
+RELEASE_TYPE: py27
+RELEASE_DIR: /usr/lpp/rsusr/python27/python-2017-04-12-py27
+PYTHON_ENV: python27
+PYTHON_HOME: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27
+PATH: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/bin:/bin:.
+LIBPATH: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/lib:/lib:/usr/lib:.
+FFI_LIB: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/lib/ffi
+TERMINFO: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/share/terminfo
+PKG_CONFIG_PATH: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/lib/pkgconfig:/usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/share/pkgconfig
+CURL_CA_BUNDLE: /usr/lpp/rsusr/python27/python-2017-04-12-py27/python27/etc/ssl/cacert.pem
+    

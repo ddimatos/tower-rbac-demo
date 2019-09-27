@@ -1,0 +1,2 @@
+[mvs]
+EC33017A ansible_host=ec33017a.vmec.svl.ibm.com ansible_ssh_pass={{ssh_pass}} ansible_ssh_user={{ssh_user}}
